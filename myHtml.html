@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="autor" content="Mohammad Ehsan Aryan" />
+    <meta name="keywords" content="todo , list , job" />
+    <meta name="description" content="This is a to do list." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./myStyle.css" />
+    <title>To Do List</title>
+</head>
+<body>
+    <section class="description">To Do List</section>
+
+    <section class="insert-section">
+        <input type="text" placeholder="Enter the job..." id="job-input" />
+        <button type="button" id="insert-btn">Insert Job</button>
+    </section>
+
+    <section class="main-section">
+        <ul class="todo-list">
+            <!-- <li class="list-item">
+                <span class="job-name">
+                    <input type="checkbox" class="cb-input" />
+                    <span class="job">Learning JS</span>
+                </span>
+                <span class="job-details">
+                    <span class="complete-job">✓</span>
+                    <span class="delete-job">X</span>
+                </span>
+            </li>
+
+            <li class="list-item">
+                <span class="job-name">
+                    <input type="checkbox" class="cb-input" />
+                    <span class="job">Learning TS</span>
+                </span>
+                <span class="job-details">
+                    <span class="complete-job">✓</span>
+                    <span class="delete-job">X</span>
+                </span>
+            </li>
+
+            <li class="list-item">
+                <span class="job-name">
+                    <input type="checkbox" class="cb-input" />
+                    <span class="job">Learning Python</span>
+                </span>
+                <span class="job-details">
+                    <span class="complete-job">✓</span>
+                    <span class="delete-job">X</span>
+                </span>
+            </li>
+
+            <li class="list-item">
+                <span class="job-name">
+                    <input type="checkbox" class="cb-input" />
+                    <span class="job">Eat dinner with my friend</span>
+                </span>
+                <span class="job-details">
+                    <span class="complete-job">✓</span>
+                    <span class="delete-job">X</span>
+                </span>
+            </li> -->
+        </ul>
+        <section class="filter-section">
+            <button class="filter-btn selected-filter" id="all-jobs">All Jobs</button>
+            <button class="filter-btn" id="completed-jobs">Completed Jobs</button>
+            <button class="filter-btn" id="checked-jobs">Checked Jobs</button>
+        </section>
+        <section class="delete-section">
+            <button class="delete-btn" id="delete-all-jobs">Delete All Jobs</button>
+            <button class="delete-btn" id="delete-completed-jobs">Delete Completed Jobs</button>
+            <button class="delete-btn" id="delete-checked-jobs">Delete Checked Jobs</button>
+        </section>
+    </section>
+
+    <script type="text/javascript" src="./todoList.js"></script>
+</body>
+</html>
